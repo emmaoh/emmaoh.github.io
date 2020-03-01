@@ -1,0 +1,83 @@
+.photos-header h1
+{
+    color: white;
+    padding-top: 10px;
+    text-align: center;
+    font-family: "Avenir Book";
+    font-size: 30px;
+}
+
+.photos img
+{
+  max-width: 100%;
+  height: auto;
+}
+
+.photos
+{
+  display: flex;
+  flex-wrap: wrap;
+  margin: 0px 150px;
+}
+
+.column 
+{
+  flex: 25%;
+  max-width: 30%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.box
+{
+  position: relative;
+  padding-top: 0;
+  margin-top: 10px;
+}
+
+.box:hover img
+{
+  opacity: 0.3;
+  transition: 0.5s all ease;
+}
+
+.box:hover .detail
+{
+  opacity: 0;
+}
+
+.column img {
+  vertical-align: middle;
+}
+
+.photos-link
+{
+  margin-top: 78px;
+  font-family: "Avenir Roman";
+  font-size: 14px;
+  color: white;
+  text-align: center;
+}
+
+@media screen and (max-width: 900px) {
+  .photos 
+  {
+    margin: 10px 10px;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .column 
+  {
+    flex: 100%;
+    max-width: 85%;
+  }
+}
+
+@media only screen and (min-height: 1000px)
+{
+  .photos 
+  {
+    margin: 10px 10px;
+  }
+}

@@ -1,0 +1,47 @@
+.main-container
+{
+  display: flex;
+  flex-direction: column;
+}
+
+.fade-in 
+{
+  display: flex;
+  flex-direction: column;
+  animation: fadeIn 5s;
+  justify-content: center;
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+/*GENERAL BACKGROUND*/
+body
+{
+  background: linear-gradient(rgba(0,0,0,0.95), rgba(0,0,0,0.95)), no-repeat center;
+}
+
+/* FONTS */
+@font-face
+{
+  font-family: "Avenir Book";
+  src: url(./fonts/AvenirLTStd-Book.otf);
+}
+
+@font-face
+{
+  font-family: "Avenir Roman";
+  src: url(./fonts/AvenirLTStd-Roman.otf);
+}
+
+@font-face
+{
+  font-family: "Avenir Medium";
+  src: url(./fonts/AvenirLTStd-Medium.otf);
+}
