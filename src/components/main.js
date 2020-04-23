@@ -2,7 +2,7 @@
 
 // import { HashRouter, Switch, Route } from 'react-router-dom';
 // import Photos from './Photos';
-// import Projects from './Projects';
+// import Capstone from './Capstone';
 // import About from './Profile';
 // import Album from './album';
 // import Profile from './Profile';
@@ -13,7 +13,7 @@
 // 				<Route exact path="/" component={Profile} />
 // 				<Route exact path="/photos" component={Photos} />
 // 				<Route exact path="/album/:id" render={props => <Album {...props} />} />
-// 				<Route exact path="/projects" component={Projects} />
+// 				<Route exact path="/Capstone" component={Capstone} />
 // 				<Route exact path="/about" component={About} />
 // 			</Switch>
 // 	</HashRouter>	

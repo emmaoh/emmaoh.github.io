@@ -24,7 +24,7 @@
 /*GENERAL BACKGROUND*/
 body
 {
-  background: linear-gradient(rgba(0,0,0,0.95), rgba(0,0,0,0.95)), no-repeat center;
+  background: white
 }
 
 /* FONTS */
@@ -44,4 +44,10 @@ body
 {
   font-family: "Avenir Medium";
   src: url(./fonts/AvenirLTStd-Medium.otf);
+}
+
+@font-face
+{
+  font-family: "One Signature";
+  src: url(./fonts/OneSignature.otf);
 }

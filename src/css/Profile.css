@@ -16,8 +16,8 @@
 
 .profile-photo img
 {
-  max-width: 180px;
-  max-height: 180px;
+  max-width: 300px;
+  max-height: 300px;
 }
 
 .profile-title h1
@@ -25,9 +25,9 @@
   text-align: center;
   margin-top: 20px;
   width: 100%;
-  font-family: "Avenir Roman";
+  font-family: "One Signature";
   color:white;
-  font-size: 37px;
+  font-size: 65px;
   text-overflow: ellipsis;
 }
 
@@ -65,10 +65,10 @@
 
 .home-nav-menu li a
 {
-  color: white;
+  color: black;
   text-decoration: none;
-  font-family: "Avenir Roman";
-  font-size: 19px;
+  font-family: "One Signature";
+  font-size: 45px;
   margin: 5vw;
   overflow: hidden;
   transition: 0.5s all ease;
@@ -91,7 +91,7 @@
 .nav-media li a
 {
   margin: 25px;
-  color: white;  
+  color:black;  
 }
 
 .nav-media li i:hover
@@ -129,8 +129,8 @@
 
   .home-nav-menu li a
   {
-    margin: 5vw;
-    font-size: 4.5vw;
+    margin: 7vw;
+    font-size: 6vw;
   }
 
   .nav-media li a

@@ -1,6 +1,6 @@
 .about-section
 {
-  margin-top: 24px;
+  margin-top: 30px;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -22,17 +22,17 @@
 
 .about-header h1
 {
-  color: rgb(252, 142, 16);
+  color: white;
   text-align: center;
-  font-family: "Avenir Book";
-  font-size: 30px;
+  font-family: "One Signature";
+  font-size: 100px;
 }
 
 .description
 {
-  color: white;
+  color: black;
   width: 70%;
-  font-family: "Avenir Book";
+  font-family: "TypeWriter";
 }
 
 .description p
@@ -45,21 +45,21 @@
 
 .description a
 {
-  color: white;
+  color:cornflowerblue (100, 149, 237);
   font-weight: medium;
   font-style: italic;
-  font-family: "Avenir Book";
+  font-family: "One Signature";
   transition: 0.5s all ease;
 }
 
 .description a:hover
 {
-  color: rgb(85, 85, 85);
+  color: rgb(100, 149, 237);
 }
 
 .cat-highlight
 {
-  color:rgb(252, 142, 16);
+  color: cornflowerblue (100, 149, 237);
 }
 
 @media only screen and (max-width: 700px)

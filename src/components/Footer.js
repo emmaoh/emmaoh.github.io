@@ -6,10 +6,10 @@ class Footer extends Component {
 		return(
 			<div className="footer-section">
                 <div className="email">
-                    <a href="mailto: 1edmundoh@gmail.com">1edmundoh@gmail.com</a>
+                    <a href="mailto: 17emmaoh@gmail.com">17emmaoh@gmail.com</a>
                 </div>
 				<div className="footer">
-					<p>handbuilt with React.js</p>
+					
 				</div>
             </div>
 		);

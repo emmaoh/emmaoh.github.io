@@ -1,10 +1,34 @@
-.photos-header h1
+.photos-section
 {
-    color: white;
-    padding-top: 10px;
-    text-align: center;
-    font-family: "Avenir Book";
-    font-size: 30px;
+    margin-top: 24px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 24px;
+}
+
+.photos-header
+{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    padding-top: 150px;
+    padding-bottom:80px;
+    align-items: center;
+    background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('../images/photos1.jpg') no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.photos-header
+{
+  color: white; 
+  padding-top: 50px;
+  text-align: center;
+  font-family: "One Signature";
+  font-size: 50px;
+  top: 50%;
+  vertical-align: middle;
 }
 
 .photos img
@@ -17,7 +41,8 @@
 {
   display: flex;
   flex-wrap: wrap;
-  margin: 0px 150px;
+  margin: 20px 150px;
+
 }
 
 .column 
@@ -26,6 +51,7 @@
   max-width: 30%;
   margin-left: auto;
   margin-right: auto;
+  
 }
 
 .box
@@ -33,12 +59,40 @@
   position: relative;
   padding-top: 0;
   margin-top: 10px;
+  text-align: center;
+  
+
 }
+
 
 .box:hover img
 {
   opacity: 0.3;
   transition: 0.5s all ease;
+  max-width: 100%;
+}
+
+.box .text
+{
+  opacity: 0;
+  visibility: hidden;
+  color:black;
+  font-family: "One Signature";
+  font-size: 40px;
+  vertical-align: middle;
+  top: 50%;
+  left: 50%;
+  text-align: center;
+  position: absolute;
+ -webkit-transform: translate(-50%,-50%);
+ -ms-transform: translate(-50%,-50%);
+ transform: translate(-50%,-50%);
+}
+
+.box:hover .text
+{
+  opacity: 1;
+  visibility: visible;
 }
 
 .box:hover .detail
@@ -47,13 +101,17 @@
 }
 
 .column img {
+  margin-top: 8px;
   vertical-align: middle;
+  top: 50%;
 }
+
+
 
 .photos-link
 {
   margin-top: 78px;
-  font-family: "Avenir Roman";
+  font-family: "OneSignature";
   font-size: 14px;
   color: white;
   text-align: center;

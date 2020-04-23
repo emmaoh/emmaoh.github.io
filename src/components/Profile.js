@@ -6,7 +6,7 @@ import Typer from './Typer';
 import '../css/Profile.css';
 
 const typedMessages = [
-    'edmund oh'
+    'Emma Oh'
   ];
 
 const preloadImages = ['../images/profilebackground.jpg', '../images/profilephoto.png'];
@@ -22,7 +22,7 @@ class Profile extends Component {
 		return(
 			<div className="homepage">
 			<div className="profile" style={{
-					backgroundImage: `linear-gradient(rgba(0,0,0,0.4), rgba(0,0,0,0.4)), url(${Background})`
+					backgroundImage: `url(${Background})`
 				}}>
 					<div className="profile-photo">
 						<img src={ ProfilePhoto }></img>
@@ -34,17 +34,16 @@ class Profile extends Component {
 			<div className="main-nav">
 			<ul className="home-nav-menu">
 			  <div className="nav-menu">
-				  <li><a href='#about'>about</a></li>
-				  <li><a href='#projects'>projects</a></li>
-				  <li><a href='#photos'>photos</a></li>
+				  <li><a href='#about'>About</a></li>
+				  <li><a href='#photos'>Photos</a></li>
+				  <li><a href='#capstone'>Capstone</a></li>
+				 
+				  
 			  </div>
 			</ul>
 			<ul>
-			  <div className="nav-media">
-					<li><a href="https://www.instagram.com/edmund_oh/"><i class="fa fa-instagram fa-3x" aria-hidden="true"></i></a></li>
-					<li><a href="https://github.com/edmundohh"><i class="fa fa-github fa-3x" aria-hidden="true"></i></a></li>
-					<li><a href="https://www.linkedin.com/in/edmundoh/"><i class="fa fa-linkedin fa-3x" aria-hidden="true"></i></a></li>
-			  </div>
+			  
+			 
 			</ul>
 		  </div>
 		  </div>

@@ -3,7 +3,7 @@ import './App.css';
 import Profile from './components/Profile';
 import About from './components/About';
 import Photos from './components/Photos';
-import Projects from './components/Projects';
+import Capstone from './components/Capstone';
 import ScrollableAnchor from 'react-scrollable-anchor';
 import Footer from './components/Footer';
 
@@ -14,8 +14,9 @@ class App extends Component {
         <div className="fade-in">
           <Profile />
           <ScrollableAnchor id={'about'}><About /></ScrollableAnchor>
-          <ScrollableAnchor id={'projects'}><Projects /></ScrollableAnchor>
-          <ScrollableAnchor id={'photos'}><Photos /></ScrollableAnchor>
+          <ScrollableAnchor id={'photos'}><Photos /></ScrollableAnchor>ß
+          <ScrollableAnchor id={'capstone'}><Capstone /></ScrollableAnchor>
+          
           <Footer />
         </div>
       </div>

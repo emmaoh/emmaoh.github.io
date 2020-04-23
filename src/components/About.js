@@ -6,20 +6,25 @@ class About extends Component {
 		return(
 			<div className="about-section">
 				<div className="about-header">
-					<h1>hello!</h1>
+					<h1>Welcome!</h1>
 				</div>			    	
 				<div className="description">
 					<p> 
-							I'm currently a 3rd year Integrated Sciences student at the University of British Columbia, studying Computer Science, Mathematics, and Geological Science.<br/><br/>
+							I am currently a Grade 12 student at R.E. Mountain Secondary School! I plan to attend UBC starting Fall 2020 for General Sciences and hopefully one day work in air traffic control.<br/><br/>
 
-							Previously, I have worked as a Software Developer Intern at <a href="https://www.sap.com/">SAP</a>.<br/><br/>
+							
 
-							Here are some fun facts about me:<br/><br/>
 
-							<span class="cat-highlight">Interests:</span> Hackathons, Photography, Soccer, Hockey, Music<br/>
-							<span class="cat-highlight">Favourite Food:</span> Fried Chicken<br/>
-							<span class="cat-highlight">Favourite Artists:</span> John Mayer, Kendrick Lamar<br/>
-							<span class="cat-highlight">Favourite Sports Teams:</span> San Francisco Giants, Montreal Canadiens, Manchester United<br/>
+							
+
+					     My hobbies include playing tennis, exercising in general, adventuring with my best friends, travelling with my family, watching movies, being outdoors and many more.   <br/><br/>
+
+						 The reason I decided to create a website by using a program called React.js is because I wanted to explore my interests. Recently, I went to a Hackathon with my brother and a couple of his friends, and our team ended up
+						 winning first place. As I had no strong background on Computer Science, and really only watched the process of their project, I thought this was the perfect opportunity to determine whether or not it's something I have an interest in.   <br/><br/>
+
+
+							
+
 					</p>
 				</div>
 			</div>
