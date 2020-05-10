@@ -10,17 +10,18 @@ class About extends Component {
 				</div>			    	
 				<div className="description">
 					<p> 
-							I am currently a Grade 12 student at R.E. Mountain Secondary School! I plan to attend UBC starting Fall 2020 for General Sciences and hopefully one day work in air traffic control.<br/><br/>
+							I am currently a Grade 12 student at R.E. Mountain Secondary School! I plan to attend UBC starting Fall 2020 for General Sciences.<br/><br/>
 
 							
 
 
 							
 
-					     My hobbies include playing tennis, exercising in general, adventuring with my best friends, travelling with my family, watching movies, being outdoors and many more.   <br/><br/>
+					     My hobbies include playing tennis, adventuring with my friends, travelling with my family, watching movies, being outdoors, playing sports and many more.   <br/><br/>
 
-						 The reason I decided to create a website by using a program called React.js is because I wanted to explore my interests. Recently, I went to a Hackathon with my brother and a couple of his friends, and our team ended up
-						 winning first place. As I had no strong background on Computer Science, and really only watched the process of their project, I thought this was the perfect opportunity to determine whether or not it's something I have an interest in.   <br/><br/>
+						 Throughout my whole life, my dad took photos everywhere we went and of my family for us to keep, and even to this day, 
+						 my dad, brother and I love to take photos of wherever we go together. Growing up looking back at photos, whether they're from before I was even born to now, I percieve photos to be a way to travel back in time to
+						 wherever I want to go within all of my cherishing memories throughout not only my life, but my family's as well. <br/><br/>
 
 
 							

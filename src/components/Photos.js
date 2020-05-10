@@ -64,16 +64,19 @@ import image59 from '../images/main/roads.jpg'
 import image60 from '../images/main/roadtrip.jpg'
 import image61 from '../images/main/diablo.jpg'
 import image62 from '../images/main/japan.jpg'
+import image63 from '../images/main/bc.jpg'
 
 
 class Photos extends Component {
 
 	render() {
 		return(
+
 			<div className="photos-section">
 				<div className="photos-header">
 					<h1>My Photos</h1>
 				</div>
+		
 				<div className="photos">
 					<div className="column">
 						<div className="box">
@@ -107,6 +110,12 @@ class Photos extends Component {
 							{/* </Link> */}
 						</div>
 						<div className="box">
+							{/* <Link to="/album/oregon"> */}
+								<img src={ image55 }></img>
+								<div className="text">Nakalele Blowhole</div>
+							{/* </Link>  */}
+						</div>
+						<div className="box">
 							{/* <to="/album/goldenears"> */}
 								<img src={ image12}></img>	
 								<div className="text">Halona Blowhole Lookout</div>
@@ -119,21 +128,9 @@ class Photos extends Component {
 							{/* </Link> */}
 						</div>
 						<div className="box">
-							{/* <to="/album/goldenears"> */}
-								<img src={ image19}></img>	
-								<div className="text">Tulip Festival</div>
-							{/* </Link> */}
-						</div>
-						<div className="box">
 							{/* <Link to="/album/oregon"> */}
 								<img src={ image22}></img>
 								<div className="text">Niagara Falls</div>
-							{/* </Link>  */}
-						</div>
-						<div className="box">
-							{/* <Link to="/album/oregon"> */}
-								<img src={ image26 }></img>
-								<div className="text">Hanauma Bay</div>
 							{/* </Link>  */}
 						</div>
 						<div className="box">
@@ -186,14 +183,14 @@ class Photos extends Component {
 						</div>
 						<div className="box">
 							{/* <Link to="/album/oregon"> */}
-								<img src={ image56 }></img>
-								<div className="text">South Korea</div>
+								<img src={ image63 }></img>
+								<div className="text">Beautiful British Columbia</div>
 							{/* </Link>  */}
 						</div>
 						<div className="box">
 							{/* <Link to="/album/oregon"> */}
-								<img src={ image61 }></img>
-								<div className="text">Diablo Lake</div>
+								<img src={ image56 }></img>
+								<div className="text">South Korea</div>
 							{/* </Link>  */}
 						</div>
 						<div className="box">
@@ -214,8 +211,20 @@ class Photos extends Component {
 						<div className="box">
 							{/* <Link to="/album/oregon"> */}
 								<img src={ image4 }></img>
-								<div className="text">Sas</div>
+								<div className="text">Bffs</div>
 							{/* </Link>  */}
+						</div>
+						<div className="box">
+							{/* <Link to="/album/oregon"> */}
+								<img src={ image26 }></img>
+								<div className="text">Hanauma Bay</div>
+							{/* </Link>  */}
+						</div>
+						<div className="box">
+							{/* <to="/album/goldenears"> */}
+								<img src={ image17}></img>	
+								<div className="text">Edmund</div>
+							{/* </Link> */}
 						</div>
 						<div className="box">
 							{/* <to="/album/goldenears"> */}
@@ -233,12 +242,6 @@ class Photos extends Component {
 							{/* <to="/album/goldenears"> */}
 								<img src={ image14}></img>	
 								<div className="text">July 2005</div>
-							{/* </Link> */}
-						</div>
-						<div className="box">
-							{/* <to="/album/goldenears"> */}
-								<img src={ image17}></img>	
-								<div className="text">Edmund</div>
 							{/* </Link> */}
 						</div>
 						<div className="box">
@@ -298,12 +301,6 @@ class Photos extends Component {
 						</div>
 						<div className="box">
 							{/* <Link to="/album/oregon"> */}
-								<img src={ image55 }></img>
-								<div className="text">Nakalele Blowhole</div>
-							{/* </Link>  */}
-						</div>
-						<div className="box">
-							{/* <Link to="/album/oregon"> */}
 								<img src={ image57 }></img>
 								<div className="text">August 2005</div>
 							{/* </Link>  */}
@@ -318,6 +315,12 @@ class Photos extends Component {
 							{/* <Link to="/album/oregon"> */}
 								<img src={ image60 }></img>
 								<div className="text">Family Hikes</div>
+							{/* </Link>  */}
+						</div>
+						<div className="box">
+							{/* <Link to="/album/oregon"> */}
+								<img src={ image59 }></img>
+								<div className="text">Haleakala Crater</div>
 							{/* </Link>  */}
 						</div>
 					
@@ -337,6 +340,24 @@ class Photos extends Component {
 						</div>		
 						<div className="box">
 							{/* <to="/album/goldenears"> */}
+								<img src={ image19}></img>	
+								<div className="text">Tulip Festival</div>
+							{/* </Link> */}
+						</div>
+						<div className="box">
+							{/* <to="/album/goldenears"> */}
+								<img src={ image18}></img>	
+								<div className="text">Parents</div>
+							{/* </Link> */}
+						</div>
+						<div className="box">
+							{/* <Link to="/album/oregon"> */}
+								<img src={ image34 }></img>
+								<div className="text">Seattle</div>
+							{/* </Link>  */}
+						</div>
+						<div className="box">
+							{/* <to="/album/goldenears"> */}
 								<img src={ image7}></img>	
 								<div className="text">Oosoyos</div>
 							{/* </Link> */}
@@ -351,12 +372,6 @@ class Photos extends Component {
 							{/* <to="/album/goldenears"> */}
 								<img src={ image11}></img>	
 								<div className="text">Pearl Harbour</div>
-							{/* </Link> */}
-						</div>
-						<div className="box">
-							{/* <to="/album/goldenears"> */}
-								<img src={ image18}></img>	
-								<div className="text">Parents</div>
 							{/* </Link> */}
 						</div>
 						<div className="box">
@@ -397,12 +412,6 @@ class Photos extends Component {
 						</div>
 						<div className="box">
 							{/* <Link to="/album/oregon"> */}
-								<img src={ image34 }></img>
-								<div className="text">Seattle</div>
-							{/* </Link>  */}
-						</div>
-						<div className="box">
-							{/* <Link to="/album/oregon"> */}
 								<img src={ image38 }></img>
 								<div className="text">Philadelphia</div>
 							{/* </Link>  */}
@@ -439,6 +448,12 @@ class Photos extends Component {
 						</div>
 						<div className="box">
 							{/* <Link to="/album/oregon"> */}
+								<img src={ image61 }></img>
+								<div className="text">Diablo Lake</div>
+							{/* </Link>  */}
+						</div>
+						<div className="box">
+							{/* <Link to="/album/oregon"> */}
 								<img src={ image52 }></img>
 								<div className="text">Yankee Stadium</div>
 							{/* </Link>  */}
@@ -449,12 +464,8 @@ class Photos extends Component {
 								<div className="text">East Coast</div>
 							{/* </Link>  */}
 						</div>
-						<div className="box">
-							{/* <Link to="/album/oregon"> */}
-								<img src={ image59 }></img>
-								<div className="text">Haleakala Crater</div>
-							{/* </Link>  */}
-						</div>
+				
+					
 						
 					</div>  	  		  
 				</div>
