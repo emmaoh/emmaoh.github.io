@@ -81,11 +81,13 @@
   }
 }
 
-@media only screen and (min-width: 1400px)
+@media only screen and (min-width: 370px)
 {
   .about-header
   {
     background-size: contain;
-    background-repeat: repeat-x;
+    background-repeat: no repeat; 
+    background-image: url('../images/about1.jpg');
+
   }
 }

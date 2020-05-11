@@ -23,11 +23,11 @@
 .profile-title h1
 {
   text-align: center;
-  margin-top: 20px;
+  margin-top: 70px;
   width: 100%;
   font-family: "One Signature";
   color:white;
-  font-size: 75px;
+  font-size: 100px;
   text-overflow: ellipsis;
 }
 
@@ -123,14 +123,14 @@
   .profile-title h1
   {
     margin-top: 10px;
-    font-size: 7vw;
+    font-size: 20vw;
     margin-bottom: 8vh;
   }
 
   .home-nav-menu li a
   {
     margin: 7vw;
-    font-size: 6vw;
+    font-size: 10vw;
   }
 
   .nav-media li a

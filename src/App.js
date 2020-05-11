@@ -14,7 +14,7 @@ class App extends Component {
         <div className="fade-in">
           <Profile />
           <ScrollableAnchor id={'about'}><About /></ScrollableAnchor>
-          <ScrollableAnchor id={'photos'}><Photos /></ScrollableAnchor>ß
+          <ScrollableAnchor id={'photos'}><Photos /></ScrollableAnchor>
           <ScrollableAnchor id={'capstone'}><Capstone /></ScrollableAnchor>
           
           <Footer />
